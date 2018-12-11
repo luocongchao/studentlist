@@ -1,0 +1,70 @@
+.layout_container{
+    position: absolute;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    overflow-y: auto;
+    margin: 12px;
+}
+
+.layout_header{
+    height: 34px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 8px 0px;
+    overflow: hidden;
+}
+
+.layout_body{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+    overflow-y: auto;
+}
+
+.layout_boot{
+    height: 34px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 8px 0px;
+    overflow: hidden;
+}
+.layou_error_icon{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    font-size: 20px;
+}
+
+.table_form_label .el-form-item__label{
+    max-width: 120px;
+    overflow: hidden;
+    text-align: right;
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    white-space:nowrap;
+}
+
+.table_form_label .el-input__inner{
+    border: none;
+    border-bottom: 1px solid #dcdfe6;
+    border-radius: 0;
+}
+
+.table_add_col .el-icon-d-caret{
+    transform: rotateZ(90deg);
+    -o-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    -webkit-transform: rotateZ(90deg);
+    -ms-transform: rotateZ(90deg);
+}
